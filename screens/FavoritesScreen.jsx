@@ -1,11 +1,30 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+// SOOMI
+
+const fakeData = [
+  {
+    title: "Food",
+    img: "https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg",
+  },
+  {
+    title: "Food",
+    img: "https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg",
+  },
+  {
+    title: "Food",
+    img: "https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg",
+  },
+  {
+    title: "Food",
+    img: "https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg",
+  },
+];
 
 const FavoritesScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>This is the Favorites Screen</Text>
     </View>
   );
 };

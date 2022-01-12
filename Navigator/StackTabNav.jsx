@@ -8,10 +8,15 @@ const Stack = createStackNavigator();
 function MyStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Recipe" component={BottomTabNav} />
+      <Stack.Screen
+        name="Back"
+        component={BottomTabNav}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen name="Details" component={RecipeDetails} />
     </Stack.Navigator>
   );
 }
-// I think I need to go in 5
+// hi
 
 export default MyStack;

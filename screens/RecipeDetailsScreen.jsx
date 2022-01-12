@@ -1,5 +1,33 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, FlatList, StyleSheet, Image } from "react-native";
+// NICK
+
+const fakeData = [
+  {
+    title: "Food",
+    img: "https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg",
+    description:
+      "food, substance consisting essentially of protein, carbohydrate, fat, and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy.",
+  },
+  {
+    title: "Food",
+    img: "https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg",
+    description:
+      "food, substance consisting essentially of protein, carbohydrate, fat, and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy.",
+  },
+  {
+    title: "Food",
+    img: "https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg",
+    description:
+      "food, substance consisting essentially of protein, carbohydrate, fat, and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy.",
+  },
+  {
+    title: "Food",
+    img: "https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg",
+    description:
+      "food, substance consisting essentially of protein, carbohydrate, fat, and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy.",
+  },
+];
 
 const RecipeDetailsScreen = () => {
   return (
@@ -15,6 +43,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+  },
+  picBanner: {
+    width: 500,
+    height: 500,
   },
 });
 
