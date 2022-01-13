@@ -23,15 +23,12 @@ const fakeData = [
 ];
 
 const FavoritesScreen = () => {
-  return (
-    <View style={styles.container}>
-    </View>
-  );
+  return <View style={styles.container}></View>;
 };
 
 export const FavoritesTab = () => ({
   tabBarIcon: ({ color }) => (
-    <MaterialCommunityIcons name="cupcake" size={30} color="#e75480" />
+    <MaterialCommunityIcons name="cupcake" size={30} color={color} />
   ),
 });
 
