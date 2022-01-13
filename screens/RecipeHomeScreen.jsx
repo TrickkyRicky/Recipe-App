@@ -8,6 +8,7 @@ import {
   FlatList,
   Image,
   TouchableOpacity,
+  Pressable,
   Alert,
 } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
@@ -94,12 +95,14 @@ const styles = StyleSheet.create({
   itemContainer: {
     width: "50%",
     paddingHorizontal: 10,
-    paddingVertical: 5,
-    elevation: 2,
+    paddingVertical: 10,
     backgroundColor: "#fff",
+    borderWidth: 3,
+    borderColor: "#D3D3D3",
   },
   foodTitle: {
     fontSize: 20,
+    fontFamily: "Roboto",
     fontWeight: "bold",
     textAlign: "center",
   },
@@ -112,7 +115,7 @@ const styles = StyleSheet.create({
     height: 200,
     resizeMode: "cover",
   },
-  dummy: {
+  favorite: {
     width: "50%",
     paddingHorizontal: 10,
     paddingVertical: 5,
